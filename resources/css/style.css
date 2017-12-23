@@ -87,6 +87,7 @@ ul li {
 }
 
 .banner .container {
+  display: flex;
   justify-content: space-between;
 }
 
@@ -391,6 +392,10 @@ h2 {
 }
 
 @media only screen and (max-width: 470px) {
+  .flex .main-image {
+    width: 100%;
+    padding: 0;
+  }
   .flex .main-image h6 {
     display: none;
   }
